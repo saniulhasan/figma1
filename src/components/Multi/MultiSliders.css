@@ -1,0 +1,30 @@
+/* CSS to hide default navigation icons */
+.swiper-button-prev, 
+
+
+.swiper-button-next {
+    background-image: url("https://res.cloudinary.com/mister-shadrack/image/upload/v1618444271/samples/ecommerce/analog-classic.jpg"); /* Use the path to your custom image */
+    width: 50px; /* Adjust width and height based on your image */
+    height: 50px;
+    background-size: cover;
+  }
+  
+  /* CSS to style custom navigation icons */
+  .custom-swiper-button-prev, .custom-swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000; /* Change color as needed */
+  }
+  
+  .custom-swiper-button-prev {
+    left: 10px;
+  }
+  
+  .custom-swiper-button-next {
+    right: 10px;
+  }
+  

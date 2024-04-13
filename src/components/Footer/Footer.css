@@ -1,0 +1,38 @@
+.footer{
+
+display:flex;
+justify-content: center;
+background: rgba(3, 27, 52, 1);
+
+}
+.footer_1{
+  
+text-align: center;
+}
+.footer_1 h1{
+font-family: Manrope;
+font-size: 62px;
+font-weight: 800;
+line-height: 75px;
+letter-spacing: -0.04em;
+text-align: center;
+background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.footer_1 button{
+    width: 218px;
+height: 65px;
+
+border: 1px solid rgba(255, 255, 255, 1);
+
+
+background: rgba(3, 27, 52, 1);
+font-family: Gilroy-Medium;
+font-size: 18px;
+line-height: 21.09px;
+color: white;
+
+}

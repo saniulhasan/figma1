@@ -1,0 +1,54 @@
+.navbar_main{
+
+    padding: 25px 50px 0px;
+    display: flex;
+   justify-content: space-between;
+}
+
+.right_menu{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+}
+.right_menu p{
+    color: hsl(0, 0%, 100%);
+    font-family: Manrope;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.right_menu button{
+   background: #FF4820;
+
+    padding: 5px 10px;
+    line-height: 24.59px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+.nav_menu{
+
+    display:flex;
+    gap:10px;
+    
+}
+.nav_menu p{
+
+color: hsl(0, 0%, 100%);
+font-family: Manrope;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+text-transform: capitalize;
+
+margin: 0 1rem;
+cursor: pointer;
+  
+}
